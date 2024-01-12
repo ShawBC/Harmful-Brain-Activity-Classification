@@ -1,4 +1,4 @@
-# HMS - Harmful Brain Activity Classification
+# HMS - Harmful Brain Activity Classification Challenge
 ![title card](assets/title-card.png)
 
 [Challenge Link](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)
