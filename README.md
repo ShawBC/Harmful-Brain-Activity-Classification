@@ -6,24 +6,13 @@
 [Variable Description Link](https://docs.google.com/spreadsheets/d/1YQVs89pAXDtdoIE6Exb0LL8spjBac2ubjy1KlcUxBQs/edit?usp=sharing)
 
 ## Description of Challenge
-The goal of this competition is to detect and classify seizures and other types of harmful brain activity. You will develop a model trained on electroencephalography (EEG) signals recorded from critically ill hospital patients.
+"The goal of this competition is to detect and classify seizures and other types of harmful brain activity. You will develop a model trained on electroencephalography (EEG) signals recorded from critically ill hospital patients.
 
-Your work may help rapidly improve electroencephalography pattern classification accuracy, unlocking transformative benefits for neurocritical care, epilepsy, and drug development. Advancement in this area may allow doctors and brain researchers to detect seizures or other brain damage to provide faster and more accurate treatments. 
+Your work may help rapidly improve electroencephalography pattern classification accuracy, unlocking transformative benefits for neurocritical care, epilepsy, and drug development. Advancement in this area may allow doctors and brain researchers to detect seizures or other brain damage to provide faster and more accurate treatments."
 
-From stethoscopes to tongue depressors, doctors rely on many tools to treat their patients. Physicians use electroencephalography with critically ill patients to detect seizures and other types of brain activity that can cause brain damage. You can learn about how doctors interpret these EEG signals in these videos:
-EEG Talk - ACNS Critical Care EEG Terminology 2021 (Part 1) (Part 2) (Part 3) (Part 4) (Part 5)
+The challenge at hand focuses on revolutionizing neurocritical care through the application of machine learning to electroencephalography (EEG) signal analysis. We are tasked with developing an algorithm capable of detecting and classifying various brain activities, including seizures and other potentially harmful patterns, observed in critically ill patients. This endeavor holds immense significance in the medical field, as EEG is a pivotal tool used by physicians to monitor brain activity, especially in patients with acute neurological conditions. Currently, EEG analysis predominantly relies on manual interpretation by specialized neurologists, a process that is not only time-consuming but also prone to human error and inconsistency.
 
-Currently, EEG monitoring relies solely on manual analysis by specialized neurologists. While invaluable, this labor-intensive process is a major bottleneck. Not only can it be time-consuming, but manual review of EEG recordings is also expensive, prone to fatigue-related errors, and suffers from reliability issues between different reviewers, even when those reviewers are experts.
-
-Competition host Sunstella Foundation was created in 2021 during the COVID pandemic to help minority graduate students in technology overcome challenges and celebrate their achievements. These students are vital to America's technology leadership and diversity. Through workshops, forums, and competitions, the Sunstella Foundation provides mentorship and career advice to support their success.
-
-Sunstella Foundation is joined by Persyst, Jazz Pharmaceuticals, and the Clinical Data Animation Center (CDAC), whose research aims to help people preserve and enhance brain health.
-
-Your work in automating EEG analysis will help doctors and brain researchers detect seizures and other types of brain activity that can cause brain damage, so that they can give treatments more quickly and accurately. The algorithms developed in this contest may also help researchers who are working to develop drugs to treat and prevent seizures.
-
-There are six patterns of interest for this competition: seizure (SZ), generalized periodic discharges (GPD), lateralized periodic discharges (LPD), lateralized rhythmic delta activity (LRDA), generalized rhythmic delta activity (GRDA), or “other”. Detailed explanations of these patterns are available here.
-
-The EEG segments used in this competition have been annotated, or classified, by a group of experts. In some cases experts completely agree about the correct label. On other cases the experts disagree. We call segments where there are high levels of agreement “idealized” patterns. Cases where ~1/2 of experts give a label as “other” and ~1/2 give one of the remaining five labels, we call “proto patterns”. Cases where experts are approximately split between 2 of the 5 named patterns, we call “edge cases”.
+The competition, hosted by the Sunstella Foundation in collaboration with Persyst, Jazz Pharmaceuticals, and the Clinical Data Animation Center (CDAC), offers an opportunity to create a transformative solution for EEG pattern classification. The data provided for this challenge includes EEG signals annotated by experts, classified into six key patterns: seizure (SZ), generalized periodic discharges (GPD), lateralized periodic discharges (LPD), lateralized rhythmic delta activity (LRDA), generalized rhythmic delta activity (GRDA), and an "other" category. These annotations come in three types: 'idealized' patterns with high expert agreement, 'proto patterns' with mixed classifications, and 'edge cases' with divided expert opinions. The success of this challenge promises to expedite and refine the diagnosis and treatment processes in neurocritical care, contributing significantly to advancements in medical research and patient outcomes in the field of neurology.
 
 ## Organisations
 <img src="assets/hms_logo.png" width="400">
